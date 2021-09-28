@@ -1,0 +1,446 @@
+*{
+  font-family: 'Arvo', serif;
+}
+#Half-portion{
+  position: relative;
+  bottom: 400px;
+}
+footer{
+  position: relative;
+  top : 100px;
+}
+
+body{
+    background-color: transparent;
+    font-family: 'Arvo', serif;
+    height:0px;
+}
+#nav{
+    background-color:teal;
+    padding: 3px;
+}
+.navbar-brand{
+    position: relative;
+    left : 60px;
+
+
+}
+.nav-link{
+    margin-left: 10px;
+}
+.navbar-nav{
+    position: relative;
+    left: 600px;
+
+}
+b{
+    padding: 10px;
+    font-size: 25px;
+}
+#carousel{
+    position: relative;
+    left: 270px;
+    width: 800px;
+}
+.d-block {
+
+    height: 400px;
+    width: 100%;
+}
+#dashboard{
+  text-align: center;
+  padding: 4%;
+}
+.left_head_card{
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+}
+.right_head_card{
+    position: relative;
+    left: 510px;
+    bottom: 183px;
+}
+.recent_statics{
+    color: #66bfbf;
+    position: relative;
+    bottom: 308px;
+    left: 360px;
+    text-align: center;
+
+
+}
+
+.fa-map-marker-alt{
+  padding-left: 8%;
+}
+
+.result{
+    height: 420px;
+    width: 800px;
+    padding-top: 2%;
+}
+#report{
+    text-align: center;
+position: relative;
+bottom: 240px;
+}
+.report_head,.update_head{
+    background-color:teal;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+.red_card{
+    width: 200px;
+    position: relative;
+    left: 100px;
+    text-align: center;
+margin-top: 5%;
+}
+.yellow_card{
+    width: 200px;
+    position: relative;
+    left: 400px;
+    bottom: 185px;
+    text-align: center;
+}
+.ash_card{
+    width: 200px;
+    position: relative;
+    left: 700px;
+    bottom: 370px;
+    text-align: center;
+}
+.blue_card{
+    width: 200px;
+    position: relative;
+    left: 1000px;
+    bottom: 555px;
+    text-align: center;
+}
+#update{
+    position: relative;
+    bottom:180px;
+}
+.view_state{
+
+    color: #66bfbf;
+    position: relative;
+    bottom: 450px;
+    left: 550px;
+}
+#download{
+    position: relative;
+    left: 620px;
+    bottom: 570px;
+}
+.btn-dark{
+    position: relative;
+    left: 20px;
+}
+/* guidelines */
+.mq,.g-h2{
+  text-align: center;
+  letter-spacing: 5px;
+   font-family: 'Arvo', serif;
+  font-weight: bold;
+  font-size: 25;
+  color: #164231;
+}
+.mq{
+  padding-top: 2%;
+}
+.guidelines{
+  padding-left: 7%;
+}
+ .help-div{
+  background-color:#009688;
+  color: #ffff;
+  padding: 2% 5%;
+}
+.h-help{
+  color: #BA240D;
+  padding: 2% 2%;
+}
+
+.help-div,.h-help{
+  text-align: center;
+  letter-spacing: 2px;
+   font-family: 'Arvo', serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+.hx{
+  color: #BA240D;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.h-card-title{
+    /* color: #164231; */
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+#HELPLINE-SEC{
+  position: relative;
+  bottom: 500px;
+}
+
+
+
+/* Info */
+
+/* Fund */
+.pspace{
+  padding-top:3%;
+  padding-left: 2%;
+  padding-right: 3%;
+  font-family: 'Arvo', serif;
+}
+.pdonation{
+  padding-bottom: 3%;
+}
+.prahead{
+  font-family: 'Arvo', serif;
+}
+.r1{
+  padding-top: 2%;
+}
+
+
+.pbt{
+  width: 30%;
+  margin-top: 3%;
+}
+.line{
+  line-height: 2;
+  font-family: 'Arvo', serif;
+}
+
+.rtsp{
+  padding-top: 5%;
+  font-family: 'Arvo', serif;
+}
+.var-sectio{
+  padding-top:1%;
+  font-family: 'Arvo', serif;
+}
+.bound{
+  position:relative;
+  width:280px;
+  height:400px;
+  margin:20px 0;
+  overflow:hidden;
+}
+.bound .img-bound{
+  background:#000;
+  clip-path: circle(400px at center 100px);
+  transition:0.5s;
+  transition-delay:0.5s;
+}
+.bound:hover .img-bound{
+  clip-path:circle(90px at center 100px);
+  transition-delay: 0s;
+}
+.bound .img-bound .don3{
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+.bound .content{
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:100%;
+  height: 40%;
+  padding:10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.bound .content .h2, .bound .content .para {
+  opacity: 0;
+  transition:0.5s;
+  transform: translateY(20px);
+}
+.bound:hover .content .para {
+  opacity: 1;
+  margin-bottom: 10px;
+  transform: translateY(0);
+  transition-delay: 0.5s;
+}
+.bound:hover .content .para{
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.7s;
+}
+
+
+
+
+/* copy preetam */
+#pree{
+  position: relative;
+  top:80px;
+}
+
+.preetam_img{
+  height: 200px;
+  width: 350px;
+  margin-left: 70px;
+  border-radius: 25px;
+
+}
+.preetam{
+  position: relative;
+  top: 150px;
+}
+
+.my-4{
+  margin-left: 500px;
+}
+
+.my-5{
+  margin-left: 80px;
+  padding-bottom:50px;
+}
+
+.owl-2-style{
+  padding-top: 3%;
+}
+
+/* copy preetam */
+
+
+
+
+/* copy ankita */
+
+.heading{
+	text-align: center;
+	padding-top: 1%;
+	color: #125D98;
+	font-family: 'Arvo', serif;
+}
+.plasma{
+	text-align: center;
+	padding: 1% 0;
+	color: #BB371A;
+	font-family: 'Arvo', serif;
+}
+.ankita{
+	display: inline-block;
+	margin: 2% 1%;
+}
+.oxygen{
+	margin-right: 6%;
+	float: left;
+}
+
+.body{
+	background-color: #E4FBFF;
+	text-align: center;
+}
+.myheader{
+	background-color: #B2DFFB;
+}
+.mybutton{
+	margin: 2% 0 1% 50%;
+}
+.oxy{
+	margin: 1% 5% 2% 5%;
+	padding: 2% 5% 2% 5%;
+	background-color:#ECFEFF;
+    float: right;
+}
+.para{
+  color:black;
+}
+.oxygen1{
+	color: darkred;
+}
+
+
+.d-block w-100{
+	width: 500px;
+	height: 300px;
+}
+.mySlides{
+	margin-left: 35%;
+}
+
+.vac{
+	margin: 1% 5% 2% 5%;
+	padding: 2% 5% 2% 5%;
+	background-color: #ECFEFF;
+    float: left;
+    text-align: left;
+}
+.vaccination{
+	margin-left: 6%;
+	float: right;
+}
+.vacci{
+	margin-left: 30px;
+}
+.palteal{
+	display: inline;
+	margin-right: 77%;
+	margin-top: -3% ;
+}
+.p1{
+	display: inline;
+}
+.hospital{
+	color:white;
+  padding-top: 2%;
+}
+#more {
+	display: none;
+}
+.palspace{
+	display: inline-block;
+  color:white;
+}
+.paladd{
+  color:white;
+}
+.Ankita_btn{
+	display: inline;
+	margin-left: 48%;
+  margin-top: 0.5%;
+}
+.palbt{
+  margin-top: 0.5%;
+}
+
+
+/* copy ankita */
+
+
+/* copy sam */
+
+.Sam_footer{
+
+  width: 100%;
+}
+
+
+.mt-3{
+  position: relative;
+  bottom: 50px;
+}
+
+.sam_white{
+  color: white;
+}

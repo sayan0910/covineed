@@ -1,0 +1,87 @@
+.heading{
+	text-align: center;
+	padding-top: 1%;
+	color: #125D98;
+	font-family: 'Anton', sans-serif;
+}
+.plasma{
+	text-align: center;
+	padding: 1% 0;
+	color: #BB371A;
+	font-family: 'Anton', sans-serif;
+}
+.ankita{
+	display: inline-block;
+	margin: 2% 1%;
+}
+.oxygen{
+	margin-right: 6%;
+	float: left;
+}
+
+.body{
+	background-color: #E4FBFF;
+	text-align: center;
+}
+.myheader{
+	background-color: #B2DFFB;
+}
+.mybutton{
+	margin: 2% 0 1% 50%;
+}
+.oxy{
+	margin: 1% 5% 2% 5%;
+	padding: 2% 5% 2% 5%;
+	background-color: #E1E8EB;
+    float: right;
+}
+.oxygen1{
+	color: darkred;
+}
+
+
+.d-block w-100{
+	width: 500px;
+	height: 300px;
+}
+.mySlides{
+	margin-left: 35%;
+}
+
+.vac{
+	margin: 1% 5% 2% 5%;
+	padding: 2% 5% 2% 5%;
+	background-color: #DDFFBC;
+    float: left;
+    text-align: left;
+}
+.vaccination{
+	margin-left: 6%;
+	float: right;
+}
+.vacci{
+	margin-left: 30px;
+}
+.w3-teal{
+	display: inline;
+	margin-right: 77%;
+	margin-top: -3% ;
+}
+.p1{
+	display: inline;
+}
+.hospital{
+	color: indianred;
+}
+#more {
+	display: none;
+}
+.space{
+	display: inline-block;
+}
+.w3-button{
+	display: inline;
+	margin-left: 67%;
+
+
+}

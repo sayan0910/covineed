@@ -1,0 +1,21 @@
+
+.preetam_img{
+  height: 200px;
+  width: 350px;
+  margin-left: 70px;
+  border-radius: 25px;
+
+}
+.preetam{
+  position: relative;
+  top: 80px;
+}
+
+.my-4{
+  margin-left: 500px;
+}
+
+.my-5{
+  margin-left: 80px;
+  padding-bottom:50px;
+}

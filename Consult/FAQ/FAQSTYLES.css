@@ -1,0 +1,41 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} */
+body{
+  background-color: #EDE682;
+}
+
+.faq_head{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: tomato;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-family: 'Cinzel', serif;
+    font-family: 'Nanum Myeongjo', serif;
+    background-color:#CAF7E3;
+
+}
+.accordion-header{
+    font-family: 'Amita', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Literata', serif;
+font-family: 'Marcellus SC', serif;
+font-family: 'Merienda One', cursive;
+font-family: 'Nanum Myeongjo', serif;
+}
+
+.container{
+    padding: 20px;
+    margin: 120px;
+    background-color: #B3E283;
+}
+
+.accordion-button
+{
+  background-color:#FFFBDF;
+}
